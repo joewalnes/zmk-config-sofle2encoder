@@ -125,7 +125,7 @@
 
             sensor-bindings =
                 <&inc_dec_kp RIGHT LEFT>,
-                <&inc_dec_kp UP_ARROW DOWN>;
+                <&inc_dec_kp PAGE_UP PAGE_DOWN>;
         };
 
         adjust_layer {
@@ -145,7 +145,9 @@
                                  &none         &none         &none         &none           &none    &none  &none  &none  &none  &none
             >;
 
-            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
+            sensor-bindings =
+                <&inc_dec_kp C_VOL_UP C_VOL_DN>,
+                <&inc_dec_kp F15 F14>;
         };
     };
 };
